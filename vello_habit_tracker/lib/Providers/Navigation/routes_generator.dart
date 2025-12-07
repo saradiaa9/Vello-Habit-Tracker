@@ -33,7 +33,7 @@ _navigateInitialRoute(String? route) {
 
 class RoutesGenerator {
   static Route<dynamic> generateAuthRoutes(RouteSettings settings) {
-    final args = settings.arguments;
+    // final args = settings.arguments;
     switch (settings.name) {
       case Routes.root:
         return MaterialPageRoute(
@@ -56,7 +56,7 @@ class RoutesGenerator {
   }
 
   static Route generateMainRoutes(RouteSettings settings) {
-    final args = settings.arguments;
+    // final args = settings.arguments;
     switch (settings.name) {
       case Routes.root:
         return _navigateInitialRoute(settings.arguments as dynamic);

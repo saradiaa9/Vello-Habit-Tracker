@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:vello_habit_tracker/Providers/Api/api_provider.dart';
-import 'package:vello_habit_tracker/Providers/Navigation/routes_generator.dart';
 
 class LoginPage extends ConsumerStatefulWidget {
   const LoginPage({super.key});
